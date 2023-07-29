@@ -1,6 +1,7 @@
 #include "key_generator.h"
 
 char* discard_eighth_bits(char* initial_key) {
+    // todo: make this handle bits
     int i = 0;
     char* new_key = 0;
     int copy_index = 0;
@@ -8,8 +9,7 @@ char* discard_eighth_bits(char* initial_key) {
     new_key = calloc(KEY_SIZE - KEY_CHUNCK_SIZE + 1, sizeof(char));
 
     if (new_key == 0) {
-        printf("Error discard_eighth_bits calloc..\n");
-        exit(-1);
+        return 0;
     }
 
     for (i = 0; i < KEY_SIZE; i += KEY_CHUNCK_SIZE) {
