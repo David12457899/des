@@ -18,12 +18,18 @@
     <ClInclude Include="key_generator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="bit_operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="key_generator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_operations.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="bit_operations.h" />
     <ClInclude Include="key_generator.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bit_operations.c" />
     <ClCompile Include="key_generator.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
